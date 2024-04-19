@@ -1,4 +1,5 @@
 import sys
+import os
 pas = "fox00"
 focc = input('Enter Password 🔑 :  ')
 if focc == pas :
@@ -7,6 +8,7 @@ if focc == pas :
 else:
     print('Error password 🔑 ')
     exit()
+os.system("clear")
 # Check version
 PYTHON_VERSION = bytes([46]).decode().join(sys.version.split(bytes([32]).decode())[0].split(bytes([46]).decode())[:-1])
 if PYTHON_VERSION != bytes([51, 46, 57]).decode():
