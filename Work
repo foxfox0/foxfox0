@@ -1,8 +1,9 @@
 import sys
 pas = "fox00"
-focc = input('Enter Password 🔑 : ')
+focc = input('Enter Password 🔑 :  ')
 if focc == pas :
     print('sussuc 🐾 ')
+    os.system("clear")
 else:
     print('Error password 🔑 ')
     exit()
