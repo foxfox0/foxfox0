@@ -1,6 +1,6 @@
 import sys
 import os
-pas = "fox00"
+pas = "fox100"
 focc = input('Enter Password 🔑 :  ')
 if focc == pas :
     print('sussuc 🐾 ')
